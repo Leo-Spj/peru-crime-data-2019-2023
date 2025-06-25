@@ -3,17 +3,6 @@ import numpy as np
 import os
 import glob
 
-def normalizar_campos_delito(df):
-    """Normaliza los campos de delito para asegurar unicidad y consistencia en todos los archivos."""
-    df = df.copy()
-    # Reemplazar 'S/Art' y variantes por 0, y nulos por 0 en 'articulo'
-    df['articulo'] = df['articulo'].replace({'S/Art': 0, 'S/ART': 0, 's/art': 0}).fillna(0)
-    df['articulo'] = df['articulo'].apply(lambda x: str(x).strip() if x != 0 else 0)
-    # Limpiar espacios y nulos en los otros campos relevantes de Dim_Delito
-    for col in ['generico', 'subgenerico', 'des_articulo']:
-        df[col] = df[col].fillna('DESCONOCIDO').astype(str).str.strip()
-    return df
-
 def normalizar_datos_delitos(ruta_csv_original):
     print(f"Cargando datos desde: {ruta_csv_original}")
     df_original = pd.read_csv(ruta_csv_original)
