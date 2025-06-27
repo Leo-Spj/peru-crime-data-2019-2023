@@ -1,0 +1,32 @@
+================================================================================
+INFORME DE ANÁLISIS - POBLACIÓN PROYECTADA DEL PERÚ
+================================================================================
+
+RESUMEN GENERAL:
+- Total de registros procesados: 2,112
+- Departamentos: 26
+- Provincias: 196
+- Distritos: 1,890
+
+TOP 10 DEPARTAMENTOS POR POBLACIÓN (2022):
+- PERÚ: 33,396,698 habitantes
+- LIMA: 10,986,006 habitantes
+- PIURA: 2,103,099 habitantes
+- LA LIBERTAD: 2,077,345 habitantes
+- AREQUIPA: 1,553,994 habitantes
+- CAJAMARCA: 1,454,217 habitantes
+- CUSCO: 1,380,594 habitantes
+- JUNÍN: 1,374,221 habitantes
+- LAMBAYEQUE: 1,338,994 habitantes
+- PUNO: 1,226,353 habitantes
+
+CRECIMIENTO POBLACIONAL NACIONAL:
+- Población 2018: 31,562,130
+- Población 2022: 33,396,698
+- Crecimiento total: 5.81%
+
+CALIDAD DE DATOS:
+- Registros con nombre vacío: 0
+- Registros sin población 2022: 0
+
+================================================================================

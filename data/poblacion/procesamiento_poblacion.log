@@ -1,0 +1,17 @@
+2025-06-26 19:25:26,837 - INFO - Iniciando procesamiento de datos
+2025-06-26 19:25:26,839 - INFO - Leyendo archivo Excel: 3464927-anexo-1.xlsx
+2025-06-26 19:25:27,560 - INFO - Hojas encontradas: ['PROY_TOT 2021-2022']
+2025-06-26 19:25:28,080 - INFO - Datos leídos: 2365 filas, 7 columnas
+2025-06-26 19:25:28,082 - INFO - Encabezados encontrados en la fila 1
+2025-06-26 19:25:28,696 - INFO - Procesamiento completado: 2112 registros
+2025-06-26 19:25:28,707 - INFO - Estadísticas de validación:
+2025-06-26 19:25:28,708 - INFO -   total_registros: 2112
+2025-06-26 19:25:28,708 - INFO -   departamentos: 26
+2025-06-26 19:25:28,709 - INFO -   provincias: 196
+2025-06-26 19:25:28,710 - INFO -   distritos: 1890
+2025-06-26 19:25:28,711 - INFO -   registros_sin_nombre: 0
+2025-06-26 19:25:28,712 - INFO -   registros_sin_poblacion_2022: 0
+2025-06-26 19:25:28,715 - INFO -   poblacion_total_peru_2022: 33396698.0
+2025-06-26 19:25:28,777 - INFO - Datos guardados en CSV: poblacion_peru_procesada.csv
+2025-06-26 19:25:30,001 - INFO - Datos guardados en Excel: poblacion_peru_procesada.xlsx
+2025-06-26 19:25:30,004 - INFO - Procesamiento completado exitosamente
